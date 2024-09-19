@@ -1,0 +1,246 @@
+{
+    "tabs": {
+        "entradas": "Entradas",
+        "novidades": "Novidades",
+        "pokes": "Pokes",
+        "sushis": "Sushis",
+        "sashimis": "Sashimis", 
+        "tmakis": "Tmakis",
+        "yakssobas": "Yakssobas",
+        "combinados": "Combinados",
+        "bebidas": "Bebidas"
+    },
+    "productItem": {
+        "botao": "ver mais"
+    },
+    "sidebar": {
+        "carrinho": "Carrinho",
+        "botao": "Finalizar Compra"
+    },
+    "modalProduct": {
+        "botao": "Adicionar",
+        "msg": "Adicionado novo item no CARRINHO!"
+    },
+    "textArea": {
+        "placeholder": "Ex: tirar a cebolinha, wassaby separado, etc.",
+        "comentario": "Algum comentario?"
+    },
+    "address": {
+        "dados": "Dados Pessoais",
+        "endereco": "Endereço de entrega",
+        "envio": "Envio para WhatsApp",
+        "telefone": "Qual seu telefone:",
+        "nome": "Qual seu nome:",
+        "email": "Qual seu e-mail",
+        "botaoProximo": "Próximo",             
+        "cep": "Seu Cep:",
+        "rua": "Qual sua Rua:",
+        "numero": "Numero:",
+        "complemento": "Complemento:",
+        "placeholder": "Casa ou ap, c/ bloco, ramal etc",
+        "bairro": "Qual seu Bairro:",
+        "cidade": "Qual sua Cidade:",
+        "botaoVoltar": "Voltar",
+        "botaoConcluir": "Concluir"
+    },
+    "formSchema": {
+        "nome": "Digite seu Nome",
+        "tel": "Digite seu Telefone",
+        "email": "Digite seu E-mail",
+        "rua": "O nome da sua rua",
+        "numero": "O numero do endereço!",
+        "complemento": "Se é Casa ou Apartamento!",
+        "bairro": "Seu Bairro!",
+        "cidade": "Sua cidade!"       
+    },
+    "finish": {
+        "text1": "Perfeito!",
+        "text2": "Agora envie seu pedido ao nosso whatsApp para concluir. Nosso atendente irá te guiar sobre o andamento do pedido.",
+        "botaoVoltar": "Voltar",
+        "botaoWhats": "Enviar para WhatsApp"
+    },
+    "sunomono": {
+        "description": "Saladinha refrescante de pepino japonês com fatias de kani e gergelim torrado e moído."
+    },
+    "sunomonoEspecial": {
+        "description": "Saladinha refrescante de pepino japonês com fatias de kani e polvo, finalizado com gergelim torrado e moído."
+    },
+    "pastaDeAtum": {
+        "description": "Pastinha cremosa de atum com maionese e pepino japonês, finalizada com gergelim e molho teriyake, servida com massa crocante de harumaki."
+    },
+    "carpaccioDeSalmao": {
+        "description": "Fatias de filé de salmão com molho levemente apimentado com tonkatsu e mostarda, finalizado com cebolinha."
+    },
+    "bolinhoDeSalmao": {
+        "description": "6 bolinhos de salmão com cream cheese e cebolinha empanados na farinha panko."
+    },
+    "lulaFurai": {
+        "description": "8 Anéis de lula empanados na farinha panko e acompanhado de molho agredoce."
+    },
+    "stickFurai": {
+        "description": "8 Bastões de peixe branco empanados na farinha panko, acompanhado de molho branco de limão."
+    },
+    "chipsDeAipim": {
+        "description": "8 Deliciosos chips crocantes de aipim acompanhado de tartar de salmão, cebolinha e cream cheese,  finalizado com gergelim torrado e moído."
+    },
+    "tartarDeSalmao": {
+        "description": "Cubos de salmão fresco marinados ao molho especial de mel e gengibre, finalizado com gergelim torrado e moído."
+    },
+    "cecicheDeSalmao": {
+        "description": "Deliciosos cubos de salmão marinados em suco de limão, finalizado com cebolinha e palhas de aipim e alho poró."
+    },
+    "shimeji": {
+        "description": "Uma deliciosa porção de Shimeji refogado com alho, saquê e molho shoyu temperado, servido com uma rodela de abacaxi."
+    },
+    "shitake": {
+        "description": "Uma deliciosa porção de Shitake refogado com alho, saquê e molho shoyu temperado, servido com uma rodela de abacaxi."
+    },
+    "harumakiDeCamarao": {
+        "description": "Porção com 4 unidades de rolinho feito com massa crocante e recheio de camarão com cream cheese e alho poró."
+    },
+    "harumakiDeLegumes": {
+        "description": "Porção com 4 unidades de rolinho feito com massa crocante e recheio de legumes."
+    },
+    "harumakiDeQueijo": {
+        "description": "Porção com 4 unidades de rolinho feito com massa crocante e recheio de mussarela com orégano."
+    },
+    "harumakiDeFrango": {
+        "description": "Porção com 4 unidades de rolinho feito com massa crocante e recheio de peito de frango desfiado e requeijão Catupiry."
+    },
+    "sushiSkin": {
+        "description": "2 und - Fatias de Pele de Salmão grelhada sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sushiSalmao": {
+        "description": "2 und - Fatias Salmão fresco sobreposta a arroz japonês."
+    },
+    "sushiAtum": {
+        "description": "2 und - Fatias Atum fresco sobreposta a arroz japonês."
+    },
+    "sushiPeixeBranco": {
+        "description": "2 und - Fatias Peixe branco fresco sobreposta a arroz japonês."
+    },
+    "sushiKani": {
+        "description": "2 und - Fatias de Kani sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sushiCamarao": {
+        "description": "2 und - Fatias de camarões selecionados, cozidos e abertos sobreposto a arroz japonês."
+    },
+    "sushiPolvo": {
+        "description": "2 und - Fatias de Polvo sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sushiShitake": {
+        "description": "2 und - Fatias de Shitake sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sushiShotoro": {
+        "description": "2 und - Fatias de Salmão empanado na massa hot, sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sushiHaddock": {
+        "description": "2 und - Fatias de haddock fresco, sobreposta a arroz japonês envolto de alga marinha nori."
+    },
+    "sashimiAtum": {
+        "description": "10 und - Fatias de Atum fresco"
+    },
+    "sashimiPeixeBranco": {
+        "description": "10 und - Fatias de Peixe branco fresco"
+    },
+    "sashimiSalmao": {
+        "description": "10 und - Fatias de Salmão fresco"
+    },
+    "sashimiPolvo": {
+        "description": "5 und - Fatias de Polvo fresco"
+    },
+    "sashimiAtumToast": {
+        "description": "10 und - Fatias de Atum levemente grelhado e coberto com gergelim moído."
+    },
+    "sashimiSalmaoToast": {
+        "description": "10 und - Fatias de Salmão levemente grelhado e coberto com gergelim moído."
+    },
+    "sashimiAtumCrocante": {
+        "description": "10 und - Fatias de Atum empanado em nossa massa crocante panko."
+    },
+    "sashimiHaddock": {
+        "description": "10 und - Fatias de Haddock fresco"
+    },
+    "temakiFiladelfia": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz e cream cheese, com generosos cubos de salmão fresco, finalizado com cebolinha picada."
+    },
+    "temakiSalmao": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com uma generosa camada de cubos de salmão fresco, finalizado com cebolinha picada e gergelim torrado e moído."
+    },
+    "temakiAtum": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com uma generosa camada de cubos de atum fresco, finalizado com cebolinha picada e gergelim torrado e moído."
+    },
+    "temakiCamarao": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com camarões selecionados e levemente grelhados, finalizado com cebolinha picada e gergelim torrado e moído."
+    },
+    "temakiCalifornia": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com recheio tradicional de manga,  pepino japonês e kani tudo isso cortado em tiras e finalizado com gergelim torrado e moído."
+    },
+    "temakiHotFila": {
+        "description": "Enrolado de alga nori em formato de cone com arroz, com recheio de finas fatias de hot Filadélfia com cream cheese e cebolinha."
+    },
+    "temakiSalmaoSkin": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com fatias de pele de salmão grelhada."
+    },
+    "temakiEbiFurai": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz e cream cheese, com generosos camarões cozidos selecionados e empanado em nossa massa crocante panko."
+    },
+    "temakiHaruHot": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com recheio de salmão e cream cheese e um leve toque de cebolinha isso tudo na massa crocante de harumaki."
+    },
+    "temakiPancrazy": {
+        "description": "Enrolado de alga nori em formato de cone com arroz e cream cheese, com recheio de cubos salmão e atum fresco, finalizado com palha de aipim artesanal super crocante."
+    },
+    "temakiPolvo": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, com fatias de polvo coberto com molho branco a base de limão uma combinação perfeita."
+    },
+    "temakiPoroEbi": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz e cream cheese, com camarões selecionados e cozidos, coberto com palha crocante de alho poró."
+    },
+    "temakiSpicy": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz com cubos de salmão fresco e maionese Spicy (apimentada) coberto com nossa palha de aipim artesanal e super crocante!"
+    },
+    "temakiKaniFurai": {
+        "description": "Enrolado de alga nori em formato de cone com arroz e cream cheese, recheado com tiras de kani empanado na massa crocante panko."
+    },
+    "temakiStickFuray": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz e cream cheese, com bastões de peixe branco temperado e empanado em nossa massa crocante panko, finalizado com molho branco à base de limão a combinação perfeita de sabor."
+    },
+    "temakiUltraEbi": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, cream cheese e camarões selecionados e cozidos, isso tudo completamente empanado em nossa massa de hot."
+    },
+    "temakiUltraHot": {
+        "description": "Enrolado de alga nori em formato de cone recheado de arroz, cream cheese e cubos de salmão frescos, isso tudo completamente empanado em nossa massa de hot."
+    },
+    "temakiSalmaoGourmetGrelhado": {
+        "description": "Enrolado de alga nori em formato de cone com arroz e cream cheese, com recheio de file de salmão grelhado coberto com shimeji temperado e refogado no shoyo."
+    },
+    "yakLegumes": {
+        "description": "Porção 400g de macarrão japonês refogado com legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakFrango": {
+        "description": "Porção 400g de macarrão japonês refogado com Frango, legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakFilet": {
+        "description": "Porção 400g de macarrão japonês refogado com Filet, legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakMisto": {
+        "description": "Porção 400g de macarrão japonês refogado com Carne, Frango, legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakLula": {
+        "description": "Porção 400g de macarrão japonês refogado com Lula, legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakSalmao": {
+        "description": "Porção 400g de macarrão japonês refogado com Salmão, legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ) e molho temperado, especialidade do Chef."
+    },
+    "yakFrutosDoMar": {
+        "description": "Porção 400g de macarrão japonês refogado com legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ), Camarões, Lula, Polvo e molho temperado, especialidade do Chef."
+    },
+    "yakCamarao": {
+        "description": "Porção 400g de macarrão japonês refogado com legumes( repolho verde, repolho roxo, espinafre, cenoura e brócolis ), Camarões e molho temperado, especialidade do Chef."
+    },
+    "temakiSalmaoEspecial": {
+        "description": "Enrolado de alga nori em formato de cone com arroz e cream cheese, recheio de filé de salmão grelhado."
+    }
+}
+

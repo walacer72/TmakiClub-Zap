@@ -1,0 +1,25 @@
+import { SideBar } from "./cart/sidebar"
+import { ToogleLanguage } from "./toogleLanguage"
+import { ToogleTheme } from "./toogleTheme"
+import { Sheet } from "./ui/sheet"
+
+
+export const Header = () => {
+    return (
+
+        <div className="fixed flex-col top-0 w-screen z-10 bg-black">
+            <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
+                <div className="cursor-pointer">
+                    <img className="w-20 m-4" src="./images/logo-tmaki.webp" alt="logo-TmakiClub" />
+                </div>
+                <div className="flex p-4 gap-2">
+                    <ToogleLanguage />
+                    <ToogleTheme />
+                    <SideBar /> 
+                </div>
+            </div>
+            <div className="w-full z-0 h-[50px] bg-black border-t-2 border-zinc-950"></div>
+        </div>
+
+    )
+}

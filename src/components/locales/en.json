@@ -1,0 +1,245 @@
+{
+    "tabs": {
+        "entradas": "Entries",
+        "novidades": "News",
+        "pokes": "Pokes",
+        "sushis": "Sushis",
+        "sashimis": "Sashimis",
+        "tmakis": "Tmakis",
+        "yakssobas": "Yakssobas",
+        "combinados": "Combined",
+        "bebidas": "Drinks"
+    },
+    "productItem": {
+        "botao": "see more"
+    },
+    "sidebar": {
+        "carrinho": "Cart",
+        "botao": "Checkout"
+    },
+    "modalProduct": {
+        "botao": "To add",
+        "msg": "Added new item to CART!"
+    },
+    "textArea": {
+        "placeholder": "Ex: remove the chives, separate the wassaby, etc.",
+        "comentario": "Any comments?"
+    },
+    "address": {
+        "dados": "Personal Data",
+        "endereco": "Delivery address",
+        "envio": "Send to WhatsApp",
+        "telefone": "What's your phone number:",
+        "nome": "What is your name:",
+        "email": "What is your email:",
+        "botaoProximo": "Next",
+        "cep": "Your Zip Code:",
+        "rua": "What is your street:",
+        "numero": "Number:",
+        "complemento": "Complement:",
+        "placeholder": "House or apartment, with block, extension, etc.",
+        "bairro": "What is your district:",
+        "cidade": "What is your city:",
+        "botaoVoltar": "To go back",
+        "botaoConcluir": "Conclude"
+    },
+    "formSchema": {
+        "nome": "Enter your Name",
+        "tel": "Enter your Phone",
+        "email": "Enter your email",
+        "rua": "The name of your street",
+        "numero": "The address number!",
+        "complemento": "Whether it's a House or an Apartment!",
+        "bairro": "Your district!",
+        "cidade": "Your city!"
+    },
+    "finish": {
+        "text1": "Perfect!",
+        "text2": "Now send your order to our WhatsApp to complete. Our attendant will guide you on the progress of the order.",
+        "botaoVoltar": "To go back",
+        "botaoWhats": "Send to WhatsApp"
+    },
+    "sunomono": {
+        "description": "Refreshing Japanese cucumber salad with kani slices and toasted and ground sesame seeds."
+    },
+    "sunomonoEspecial": {
+        "description": "Refreshing Japanese cucumber salad with slices of kani and octopus, finished with toasted and ground sesame seeds."
+    },
+    "pastaDeAtum": {
+        "description": "Creamy tuna spread with mayonnaise and Japanese cucumber, topped with sesame seeds and teriyaki sauce, served with crispy harumaki noodles."
+    },
+    "carpaccioDeSalmao": {
+        "description": "Slices of salmon fillet with a slightly spicy sauce with tonkatsu and mustard, finished with chives."
+    },
+    "bolinhoDeSalmao": {
+        "description": "6 salmon balls with cream cheese and chives breaded in panko flour."
+    },
+    "lulaFurai": {
+        "description": "8 Squid rings breaded in panko flour and served with sweet and sour sauce."
+    },
+    "stickFurai": {
+        "description": "8 White fish sticks breaded in panko flour, served with white lemon sauce."
+    },
+    "chipsDeAipim": {
+        "description": "8 Delicious crispy cassava chips accompanied by salmon tartar, chives and cream cheese, finished with toasted and ground sesame seeds."
+    },
+    "tartarDeSalmao": {
+        "description": "Fresh salmon cubes marinated in a special honey and ginger sauce, finished with toasted and ground sesame seeds."
+    },
+    "cecicheDeSalmao": {
+        "description": "Delicious salmon cubes marinated in lemon juice, finished with chives, cassava and leek straws."
+    },
+    "shimeji": {
+        "description": "A delicious portion of Shimeji sautéed with garlic, sake and seasoned soy sauce, served with a slice of pineapple."
+    },
+    "shitake": {
+        "description": "A delicious portion of Shitake sautéed with garlic, sake and seasoned soy sauce, served with a slice of pineapple."
+    },
+    "harumakiDeCamarao": {
+        "description": "Portion with 4 rolls made with crispy dough and shrimp filling with cream cheese and leek."
+    },
+    "harumakiDeLegumes": {
+        "description": "Portion with 4 rolls made with crispy dough and vegetable filling."
+    },
+    "harumakiDeQueijo": {
+        "description": "Portion with 4 rolls made with crispy dough and mozzarella filling with oregano."
+    },
+    "harumakiDeFrango": {
+        "description": "Portion with 4 rolls made with crispy dough and stuffed with shredded chicken breast and Catupiry cream cheese."
+    },
+    "sushiSkin": {
+        "description": "2 units - Slices of grilled salmon skin placed on Japanese rice wrapped in nori seaweed."
+    },
+    "sushiSalmao": {
+        "description": "2 units - Slices of fresh salmon placed on Japanese rice."
+    },
+    "sushiAtum": {
+        "description": "2 units - Slices of fresh tuna placed on Japanese rice."
+    },
+    "sushiPeixeBranco": {
+        "description": "2 und - Fatias Peixe branco fresco sobreposta a arroz japonês."
+    },
+    "sushiKani": {
+        "description": "2 units - Kani slices placed on Japanese rice wrapped in nori seaweed."
+    },
+    "sushiCamarao": {
+        "description": "2 units - Slices of selected, cooked and opened shrimp placed on Japanese rice."
+    },
+    "sushiPolvo": {
+        "description": "2 units - Octopus slices placed on Japanese rice wrapped in nori seaweed."
+    },
+    "sushiShitake": {
+        "description": "2 units - Shitake slices placed on Japanese rice wrapped in nori seaweed."
+    },
+    "sushiShotoro": {
+        "description": "2 units - Slices of salmon breaded in hot batter, placed on top of Japanese rice wrapped in nori seaweed."
+    },
+    "sushiHaddock": {
+        "description": "2 units - Slices of fresh haddock, placed on Japanese rice wrapped in nori seaweed."
+    },
+    "sashimiAtum": {
+        "description": "10 units - Fresh Tuna Slices"
+    },
+    "sashimiPeixeBranco": {
+        "description": "10 units - Slices of fresh white fish"
+    },
+    "sashimiSalmao": {
+        "description": "10 units - Fresh Salmon Slices"
+    },
+    "sashimiPolvo": {
+        "description": "5 units - Fresh Octopus slices"
+    },
+    "sashimiAtumToast": {
+        "description": "10 units - Slices of lightly grilled tuna covered with ground sesame seeds."
+    },
+    "sashimiSalmaoToast": {
+        "description": "10 units - Slices of lightly grilled salmon covered with ground sesame seeds."
+    },
+    "sashimiAtumCrocante": {
+        "description": "10 units - Slices of tuna breaded in our crispy panko batter."
+    },
+    "sashimiHaddock": {
+        "description": "10 units - Fresh Haddock slices"
+    },
+    "temakiFiladelfia": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice and cream cheese, with generous cubes of fresh salmon, finished with chopped chives."
+    },
+    "temakiSalmao": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with a generous layer of fresh salmon cubes, finished with chopped chives and toasted and ground sesame seeds."
+    },
+    "temakiAtum": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with a generous layer of fresh tuna cubes, finished with chopped chives and toasted and ground sesame seeds."
+    },
+    "temakiCamarao": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, selected and lightly grilled shrimp, finished with chopped chives and toasted and ground sesame seeds."
+    },
+    "temakiCalifornia": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with a traditional filling of mango, Japanese cucumber and kani, all cut into strips and finished with toasted and ground sesame seeds."
+    },
+    "temakiHotFila": {
+        "description": "Nori seaweed roll in the shape of a cone with rice, filled with thin slices of hot Philadelphia with cream cheese and chives."
+    },
+    "temakiSalmaoSkin": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with slices of grilled salmon skin."
+    },
+    "temakiEbiFurai": {
+        "description": "Nori seaweed roll in a cone shape filled with rice and cream cheese, with generous selected cooked shrimp and breaded in our crispy panko batter."
+    },
+    "temakiHaruHot": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with salmon and cream cheese filling and a light touch of chives, all in crispy harumaki dough."
+    },
+    "temakiPancrazy": {
+        "description": "Nori seaweed roll in a cone shape with rice and cream cheese, filled with cubes of salmon and fresh tuna, finished with super crispy homemade cassava straw."
+    },
+    "temakiPolvo": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, with slices of octopus covered in a white lemon-based sauce, a perfect combination."
+    },
+    "temakiPoroEbi": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice and cream cheese, with selected and cooked shrimp, covered with crispy leek straw."
+    },
+    "temakiSpicy": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, fresh salmon cubes and Spicy mayonnaise, covered with our super crunchy, handmade cassava straw!"
+    },
+    "temakiKaniFurai": {
+        "description": "Nori seaweed roll in a cone shape with rice and cream cheese, stuffed with strips of kani breaded in crispy panko batter."
+    },
+    "temakiStickFuray": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice and cream cheese, with seasoned white fish sticks and breaded in our crispy panko batter, finished with a lemon-based white sauce, the perfect combination of flavors."
+    },
+    "temakiUltraEbi": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, cream cheese and selected and cooked shrimp, all completely breaded in our hot batter."
+    },
+    "temakiUltraHot": {
+        "description": "Nori seaweed roll in the shape of a cone filled with rice, cream cheese and fresh salmon cubes, all completely breaded in our hot batter."
+    },
+    "temakiSalmaoGourmetGrelhado": {
+        "description": "Nori seaweed roll in a cone shape with rice and cream cheese, filled with grilled salmon fillet covered with seasoned shimeji mushrooms and sautéed in soy sauce."
+    },
+    "yakLegumes": {
+        "description": "400g portion of Japanese noodles sautéed with vegetables (green cabbage, red cabbage, spinach, carrots and broccoli) and seasoned sauce, the Chef's specialty."
+    },
+    "yakFrango": {
+        "description": "400g portion of Japanese noodles sautéed with chicken, vegetables (green cabbage, red cabbage, spinach, carrots and broccoli) and seasoned sauce, the Chef's specialty."
+    },
+    "yakFilet": {
+        "description": "400g portion of Japanese noodles sautéed with Filet, vegetables (green cabbage, red cabbage, spinach, carrot and broccoli) and seasoned sauce, Chef's specialty."
+    },
+    "yakMisto": {
+        "description": "400g portion of Japanese noodles sautéed with beef, chicken, vegetables (green cabbage, red cabbage, spinach, carrots and broccoli) and seasoned sauce, the Chef's specialty."
+    },
+    "yakLula": {
+        "description": "400g portion of Japanese noodles sautéed with squid, vegetables (green cabbage, red cabbage, spinach, carrots and broccoli) and seasoned sauce, the Chef's specialty."
+    },
+    "yakSalmao": {
+        "description": "400g portion of Japanese noodles sautéed with salmon, vegetables (green cabbage, red cabbage, spinach, carrots and broccoli) and seasoned sauce, the Chef's specialty."
+    },
+    "yakFrutosDoMar": {
+        "description": "400g portion of Japanese noodles sautéed with vegetables (green cabbage, red cabbage, spinach, carrots and broccoli), shrimp, squid, octopus and seasoned sauce, the Chef's specialty."
+    },
+    "yakCamarao": {
+        "description": "400g portion of Japanese noodles sautéed with vegetables (green cabbage, red cabbage, spinach, carrots and broccoli), shrimp and seasoned sauce, Chef's specialty."
+    },
+    "temakiSalmaoEspecial": {
+        "description": "Nori seaweed roll in a cone shape with rice and cream cheese, filled with grilled salmon fillet."
+    }
+}
