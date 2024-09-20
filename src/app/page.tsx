@@ -33,7 +33,7 @@ const Page = () => {
       </div>
       
 
-      <div className="w-screen max-w-6xl mx-auto mt-32" >
+      <div className="w-screen max-w-6xl mx-auto mt-48" >
         <Suspense fallback={<SkeletonTab />}>
           <Body />
         </Suspense>

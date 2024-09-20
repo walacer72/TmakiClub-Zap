@@ -46,7 +46,7 @@ export const SideBar = () => {
                     <SheetTitle>{t("sidebar.carrinho")}</SheetTitle>
                 </SheetHeader>
 
-                <div className="max-h-[350px] flex flex-col gap-5 mt-4 p-2 pl-4 text-wrap overflow-x-hidden overflow-y-scroll bg-background"> 
+                <div className="max-h-[350px] flex flex-col gap-5 mt-4 md:pl-2 text-wrap overflow-x-hidden overflow-y-scroll bg-background"> 
 
                     {cart.map(item => (
                         <CartItem key={item.product.id} item={item} />

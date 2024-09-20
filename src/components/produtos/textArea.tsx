@@ -44,16 +44,17 @@ export const TextArea = ({setComment}: Props) => {
                         control={form.control}
                         name="textArea"
                         render={({ field }) => (
-                            <FormItem className="outline-none flex-1">
+                            <FormItem className="flex-1">
                                 <FormLabel className="text-lg">{t("textArea.comentario")}</FormLabel>
                                 <FormControl>
                                     <Textarea
                                         placeholder={t("textArea.placeholder")} 
-                                        className="outline-none flex-1 text-base resize-none border border-zinc-700"
+                                        className="flex-1 text-base resize-none border border-zinc-700"                          
                                         {...field}
                                         value={value}
                                         onChange={(e) => setValue(e.target.value)}
                                         onBlur={handleClickArea}
+                                        
                                     />
                                 </FormControl>
                                 <div className="h-4">

@@ -44,12 +44,12 @@
         "botaoConcluir": "Concluir"
     },
     "formSchema": {
-        "nome": "Digite seu Nome",
-        "tel": "Digite seu Telefone",
-        "email": "Digite seu E-mail",
-        "rua": "O nome da sua rua",
+        "nome": "Seu Nome",
+        "tel": "Seu Telefone",
+        "email": "Seu E-mail",
+        "rua": "O nome da rua",
         "numero": "O numero do endereço!",
-        "complemento": "Se é Casa ou Apartamento!",
+        "complemento": "Se é Casa/ Ap!",    
         "bairro": "Seu Bairro!",
         "cidade": "Sua cidade!"       
     },

@@ -7,7 +7,7 @@ export const SkeletonTab = () => {
     return (
         <div>
 
-            <Skeleton className="relative mx-auto max-w-xs h-8 z-20 rounded-full md:max-w-4xl" />
+            <Skeleton className="relative -mt-16 mx-auto max-w-xs h-8 z-20 rounded-full md:max-w-6xl" />
 
             <div className="mt-10 mx-4 grid gap-12 grid-cols-1 md:grid-cols-2">
 
@@ -19,10 +19,10 @@ export const SkeletonTab = () => {
                         <div className="flex-1 flex flex-col w-40 h-full p-4 justify-between md:w-full md:p-0">
                             <div>
                                 <Skeleton className="w-full h-7 mt-2 rounded-xl" />
-                                <Skeleton className="w-36 md:w-48 h-14 mt-2 rounded-xl" />
+                                <Skeleton className="w-36 md:w-48 h-6 mt-2 rounded-xl" />
                             </div>
                             <Skeleton className="w-16 h-7 rounded-xl self-end" />
-                            <Skeleton className="w-full h-9 mt-2 rounded-xl" />
+                            <Skeleton className="w-full h-8 mt-2 rounded-xl" />
                         </div>
 
                     </div>

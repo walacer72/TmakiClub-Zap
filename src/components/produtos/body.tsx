@@ -80,7 +80,7 @@ export const Body = async () => {
                 >
                     <CarouselContent className="">
                         {tabs.map(item => (
-                            <CarouselItem key={item.value} className="basis-1/4 md:basis-1/4 lg:basis-1/6">
+                            <CarouselItem key={item.value} className="basis-1/3 md:basis-1/4 lg:basis-1/6">
                                 <TabsList className="relative flex">
 
                                     <TabsTrigger
@@ -109,7 +109,7 @@ export const Body = async () => {
                     className=""
                 >
                     {item.product.length > 0 &&
-                        <div className="w-full relative mx-auto max-w-6xl top-20">  
+                        <div className="w-full relative mx-auto max-w-6xl">  
                             <div className="grid gap-5 grid-cols-1 md:grid-cols-2 mx-4">
                                 {item.product.map(item => (
                                     <ProductItem key={item.id} item={item} />
