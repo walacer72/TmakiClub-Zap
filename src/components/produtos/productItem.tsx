@@ -24,9 +24,9 @@ export const ProductItem = ({ item }: Props) => {
                     <img className="w-full h-36 md:h-52 object-cover " src={item.image} alt={item.name} />      
                 </div>
                 <div className="flex flex-1 h-36 md:h-52 flex-col justify-between gap-2 md:gap-4">    
-                    <div className="flex-1">
-                        <p className="text-base font-semibold">{item.name}</p>
-                        <div className="w-full line-clamp-1 md:w-full md:line-clamp-3 text-sm opacity-80 mt-2 ">{t(`${item.nameDesc}.description`)}</div>       
+                    <div className="flex-1 w-full">
+                        <p className="text-base font-semibold line-clamp-1">{item.name}</p>
+                        <div className="line-clamp-1 md:line-clamp-3 text-sm opacity-80 mt-2 ">{t(`${item.nameDesc}.description`)}</div>       
                     </div>
                     
 
