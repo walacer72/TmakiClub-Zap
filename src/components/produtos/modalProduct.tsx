@@ -13,96 +13,96 @@ import { useTranslation } from "react-i18next";
 
 
 type Props = {
-    item: Product;
-    open: boolean;
-    onOpenChange: (open: boolean) => void;
+  item: Product;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
 }
 
 export const ModalProduct = ({ item, open, onOpenChange }: Props) => {
 
-    const [qtd, setQtd] = useState<number>(1)
-    const [comment, setComment] = useState('')
-    const { upsertCartItem } = useCartStore(states => states);
-    const { toast } = useToast();
-    const {t} = useTranslation();
-    
-    
-
-    const handleAddButton = () => {
-        upsertCartItem(item, qtd, comment);
-        console.log(comment)
-        toast({
-            title: `${t("modalProduct.msg")}`,
-            description: item.name
-
-        })
-    }
-
-    let subTotal = item.price * qtd;
-
-    const handlePlusButton = (n: number) => {
-
-        setQtd(qtd + n <= 0 ? 1 : qtd + n)
-    }
+  const [qtd, setQtd] = useState<number>(1)
+  const [comment, setComment] = useState('')
+  const { upsertCartItem } = useCartStore(states => states);
+  const { toast } = useToast();
+  const { t } = useTranslation();
 
 
-    return (
-        <Dialog
-            key={item.id}
-            open={open}
-            onOpenChange={() => onOpenChange(false)}
-        >
 
-            <DialogContent className="flex flex-col items-center w-full h-full p-8 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
-                <div className="flex-1 w-full h-auto md:h-auto rounded-md overflow-hidden">
-                    <img className="w-full h-auto object-cover" src={item.image} alt={item.name} />
+  const handleAddButton = () => {
+    upsertCartItem(item, qtd, comment);
+    console.log(comment)
+    toast({
+      title: `${t("modalProduct.msg")}`,
+      description: item.name
+
+    })
+  }
+
+  let subTotal = item.price * qtd;
+
+  const handlePlusButton = (n: number) => {
+
+    setQtd(qtd + n <= 0 ? 1 : qtd + n)
+  }
+
+
+  return (
+    <Dialog
+      key={item.id}
+      open={open}
+      onOpenChange={() => onOpenChange(false)}
+    >
+
+      <DialogContent className="flex flex-col items-center w-full h-full p-8 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
+        <div className="flex-1 w-full h-auto md:h-auto rounded-md overflow-hidden">
+          <img className="w-full h-auto object-cover" src={item.image} alt={item.name} />
+        </div>
+        <DialogHeader className="flex-1 flex-col justify-between">
+          <DialogTitle className="flex flex-col gap-8 mb-4">
+            <p className="font-bold text-xl md:text-2xl">{item.name}</p>
+            <p className="text-base md:text-xl text-muted-foreground">
+              {t(`${item.nameDesc}.description`)}
+            </p>
+
+          </DialogTitle>
+          <DialogDescription>
+            <div className="flex flex-col md:ga-4">
+              <div className="w-full">
+                <TextArea setComment={setComment} />
+              </div>
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex items-center gap-3">
+                  <Button
+                    variant={'outline'}
+                    size={"icon"}
+                    className="size-7"
+                    onClick={() => handlePlusButton(+ 1)}
+                  >
+                    <PlusIcon />
+                  </Button>
+                  <p className="text-2xl">{qtd}</p>
+                  <Button
+                    variant={'outline'}
+                    size={"icon"}
+                    className="size-7"
+                    onClick={() => handlePlusButton(- 1)}
+                  >
+                    <MinusIcon />
+                  </Button>
                 </div>
-                <DialogHeader className="flex-1 flex-col justify-between">
-                    <DialogTitle className="flex flex-col gap-8 mb-4">
-                        <p className="font-bold text-2xl">{item.name}</p>
-                        <p className="text-xl text-muted-foreground">
-                        {t(`${item.nameDesc}.description`)}
-                        </p>
+                <Button
+                  onClick={handleAddButton}
+                  className="md:min-w-72 h-16 flex p-4 gap-4 md:gap-12 --background border border-background.dark text-base md:text-lg" >
+                  <p className="font-semibold">{t("modalProduct.botao")}</p>
+                  <p className="text-xl md:text-2xl font-bold">R$: {subTotal.toFixed(2)}</p>
+                </Button>
+              </div>
 
-                    </DialogTitle>
-                    <DialogDescription>
-                        <div className="flex flex-col gap-4">
-                            <div className="w-full">
-                                <TextArea setComment={setComment} />
-                            </div>
-                            <div className="flex items-center justify-between gap-4">
-                                <div className="flex items-center gap-3">
-                                    <Button
-                                        variant={'outline'}
-                                        size={"icon"}
-                                        className="size-7"
-                                        onClick={() => handlePlusButton(+ 1)}
-                                    >
-                                        <PlusIcon />
-                                    </Button>
-                                    <p className="text-2xl">{qtd}</p>
-                                    <Button
-                                        variant={'outline'}
-                                        size={"icon"}
-                                        className="size-7"
-                                        onClick={() => handlePlusButton(- 1)}
-                                    >
-                                        <MinusIcon />
-                                    </Button>
-                                </div>
-                                <Button
-                                    onClick={handleAddButton}
-                                    className="md:min-w-72 h-16 flex p-4 gap-4 md:gap-12 --background border border-background.dark text-lg" >
-                                    <p className="font-semibold">{t("modalProduct.botao")}</p>
-                                    <p className="text-2xl font-bold">R$: {subTotal.toFixed(2)}</p>
-                                </Button>
-                            </div>
+            </div>
+          </DialogDescription>
 
-                        </div>
-                    </DialogDescription>
-
-                </DialogHeader>
-            </DialogContent>
-        </Dialog>
-    )
+        </DialogHeader>
+      </DialogContent>
+    </Dialog>
+  )
 }
