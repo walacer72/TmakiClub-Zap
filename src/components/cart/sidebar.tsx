@@ -32,16 +32,16 @@ export const SideBar = () => {
         <Sheet>
             <SheetTrigger asChild>
                 <Button
-                 className={`relative transition-colors duration-500 p-4 bg-black border border-[#fe0000] hover:text-black
+                 className={`relative transition-colors duration-500 p-2 md:p-4 bg-black border border-[#fe0000] hover:text-black
                  ${cart.length > 0 ? 'bg-[#fe0000] hover:bg-red-600 hover:text-black': 'bg-black hover:bg-[#fe0000] text-white '}       
                  `}
                  variant={'outline'}>
-                    <RocketIcon className="size-5 mr-2"/>
+                    <RocketIcon className="size-4 mr-2 md:size-5"/>
                     {cart.length <= 0 && 
                         <p className="text-md">{t("sidebar.carrinho")}</p>
                     }
                     {cart.length > 0 &&
-                        <p className="text-lg text-white">{t("sidebar.carrinho")}<span className="text-sm text-black font-semibold">/ {itensTotal} {itensTotal === 1 ? 'item':'itens'}</span></p>
+                        <p className="text-md md:text-lg text-white">{t("sidebar.carrinho")}<span className="text-xs md:text-base text-black font-semibold">/ {itensTotal} {itensTotal === 1 ? 'item':'itens'}</span></p>
                     }
                 </Button>
             </SheetTrigger>

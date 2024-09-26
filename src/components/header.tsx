@@ -12,7 +12,7 @@ export const Header = () => {
                 <div className="cursor-pointer">
                     <img className="w-20 m-4" src="./images/logo-tmaki.webp" alt="logo-TmakiClub" />
                 </div>
-                <div className="flex p-4 gap-2">
+                <div className="flex p-4 gap-1 md:gap-2">
                     <ToogleLanguage />
                     <ToogleTheme />
                     <SideBar /> 

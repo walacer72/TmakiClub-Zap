@@ -54,7 +54,7 @@ export const ModalProduct = ({ item, open, onOpenChange }: Props) => {
       onOpenChange={() => onOpenChange(false)}
     >
 
-      <DialogContent className="flex flex-col items-center w-screen h-screen p-0 md:p-4 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
+      <DialogContent className="flex flex-col items-center w-screen h-full p-0 md:p-4 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
         <div className="flex-1 w-full h-auto rounded-bl-3xl rounded-br-3xl md:rounded-md overflow-hidden">
           <img className="w-full h-full object-cover" src={item.image} alt={item.name} />
         </div>
