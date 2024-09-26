@@ -21,9 +21,11 @@ export const SideBar = () => {
 
     
     let subTotal = 0;
+    let itensTotal = 0;
 
     for (let item of cart) {
         subTotal += item.quantity * item.product.price;
+        itensTotal += item.quantity;
     }
 
     return (
@@ -35,9 +37,11 @@ export const SideBar = () => {
                  `}
                  variant={'outline'}>
                     <RocketIcon className="size-5 mr-2"/>
-                    <p className="text-md">{t("sidebar.carrinho")}</p>
+                    {cart.length <= 0 && 
+                        <p className="text-md">{t("sidebar.carrinho")}</p>
+                    }
                     {cart.length > 0 &&
-                        <div className="absolute size-3 bg-black rounded-full -right-1 -top-1 border border-gray-700"></div>    
+                        <p className="text-lg text-white">{t("sidebar.carrinho")}<span className="text-sm text-black font-semibold">/ {itensTotal} {itensTotal === 1 ? 'item':'itens'}</span></p>
                     }
                 </Button>
             </SheetTrigger>

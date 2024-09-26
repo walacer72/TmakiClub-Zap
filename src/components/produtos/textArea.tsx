@@ -49,7 +49,8 @@ export const TextArea = ({ setComment }: Props) => {
                 <FormControl>
                   <Textarea
                     placeholder={t("textArea.placeholder")}
-                    className="flex-1 text-sm md:text-base resize-none border border-zinc-700"
+                    className="p-2 h-8  text-sm md:text-base resize-none border border-zinc-700"  
+                    
                     {...field}
                     value={value}
                     onChange={(e) => setValue(e.target.value)}

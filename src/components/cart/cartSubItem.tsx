@@ -14,7 +14,7 @@ export const CartSubItem = ({item}: Props) => {
     const { upsertCartItem } = useCartStore(states => states)
     
     return (
-        <div className="flex items-center gap-2">
+        <div className="flex flex-col items-center gap-2">
             <Button
             variant={'outline'}
             size={"icon"}
