@@ -12,7 +12,7 @@ export const CartCheckout = ({ item }: Props) => {
             </div>
 
             <p className="text-sm">{item.product.name}</p>
-            <p className="text-md opacity-50 ">R$ {item.product.price.toFixed(2)}</p>
+            <p className="text-md">R$ {item.product.price.toFixed(2)}</p>
 
 
         </div>

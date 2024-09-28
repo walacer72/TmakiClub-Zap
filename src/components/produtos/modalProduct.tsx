@@ -94,8 +94,8 @@ export const ModalProduct = ({ item, open, onOpenChange }: Props) => {
                         <Button
                            onClick={handleAddButton}
                            className="md:min-w-72 h-16 flex p-4 gap-4 md:gap-12 --background border border-background.dark text-base md:text-lg" >
-                           <p className="font-semibold">{t("modalProduct.botao")}</p>
-                           <p className="text-xl md:text-2xl font-bold">R$: {subTotal.toFixed(2)}</p>
+                           <p className="font-robotoBold">{t("modalProduct.botao")}</p>
+                           <p className="text-xl md:text-2xl font-robotoBold">R$: {subTotal.toFixed(2)}</p> 
                         </Button>
                      </div>
 

@@ -26,7 +26,7 @@ export const ToogleLanguage = () => {
     return (
 
         <Select onValueChange={onChange}>
-            <SelectTrigger className="w-10 bg-black text-white border border-gray-800 text-center items-center hover:bg-gray-600">
+            <SelectTrigger className="w-10 flex bg-black text-white border border-gray-800 text-center justify-center hover:bg-gray-600">
                 {lng || 'pt'}
             </SelectTrigger>
             <SelectContent className="bg-black text-white border border-gray-800">
