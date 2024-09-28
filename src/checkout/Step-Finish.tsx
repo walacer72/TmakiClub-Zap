@@ -29,7 +29,7 @@ export const StepFinish = ({ setSteps }: Props) => {
     const linkZap = `https://wa.me//${process.env.NEXT_PUBLIC_ZAP}?text=${encodeURI(message)}`;
 
     return (
-        <div className="h-96 flex justify-between flex-col gap-4 text-center">
+        <div className="h-96 font-roboto100 flex justify-between flex-col gap-4 text-center">
             <p className="text-xl"><span className="text-blue-500 text-2xl">{t("finish.text1")}</span> {personData.name}</p>
 
             <div className="max-h-[250px] flex flex-col gap-2 text-wrap overflow-x-hidden overflow-y-scroll">

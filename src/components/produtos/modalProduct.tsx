@@ -54,14 +54,14 @@ export const ModalProduct = ({ item, open, onOpenChange }: Props) => {
          onOpenChange={() => onOpenChange(false)}
       >
 
-         <DialogContent className="flex flex-col items-center w-screen h-full p-0 md:p-4 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
+         <DialogContent className="flex font-roboto100 flex-col items-center w-screen h-full p-0 md:p-4 gap-8 mx-auto md:h-auto md:max-w-6xl md:flex-row md:items-stretch">
             <div className="flex-1 w-full h-auto rounded-bl-3xl rounded-br-3xl md:rounded-md overflow-hidden">
                <img className="w-full h-full object-cover" src={item.image} alt={item.name} />
             </div>
             <DialogHeader className="flex-1 w-full p-4 flex-col justify-between">
                <DialogTitle className="flex flex-col gap-8 mb-4">
-                  <p className="font-bold text-xl md:text-2xl">{item.name}</p>
-                  <p className="text-base md:text-xl text-muted-foreground">
+                  <p className="font-bold text-base md:text-xl">{item.name}</p>
+                  <p className="text-sm md:text-lg text-muted-foreground">
                      {t(`${item.nameDesc}.description`)}
                   </p>
 

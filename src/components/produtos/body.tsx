@@ -71,14 +71,14 @@ export const Body = async () => {
    return (
 
       <Tabs defaultValue="entradas">
-         <div className="bg-black z-20 py-2 fixed top-28 left-0 right-0 w-screen shadow-lg shadow-zinc-800 border-t-2 border-zinc-950">
+         <div className="bg-black z-20 py-2 fixed top-28 left-0 right-0 w-screen shadow-lg shadow-zinc-800 border-t-2 border-zinc-950 rounded-bl-3xl rounded-br-3xl md:rounded-none">
             <Carousel
                opts={{
                   align: "center",
                }}
-               className="mx-auto max-w-sm md:max-w-3xl lg:max-w-5xl"
+               className="mx-auto max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-5xl"
             >
-               <CarouselContent className="">
+               <CarouselContent className="">   
                   {tabs.map(item => (
                      <CarouselItem key={item.value} className="basis-1/3 md:basis-1/4 lg:basis-1/6">
                         <TabsList className="relative flex">
@@ -86,7 +86,7 @@ export const Body = async () => {
                            <TabsTrigger
                               key={item.value}
                               value={item.value}
-                              className="w-full bg-black border-0 text-gray-400 duration-300 hover:text-lg"
+                              className="w-full text-sm bg-black border-0 text-gray-400 duration-300 hover:text-base"
                            >
 
                               {item.title}
@@ -96,8 +96,8 @@ export const Body = async () => {
                      </CarouselItem>
                   ))}
                </CarouselContent>
-               <CarouselPrevious className="hidden border-none bg-gray-900 text-gray-500 md:flex" />
-               <CarouselNext className="hidden border-none bg-gray-900 text-gray-500 md:flex" />
+               <CarouselPrevious className="hover:bg-transparent" />
+               <CarouselNext className="hover:bg-transparent" />
             </Carousel>
          </div>
 

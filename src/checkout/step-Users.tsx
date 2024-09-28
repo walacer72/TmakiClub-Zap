@@ -36,7 +36,7 @@ export const StepUsers = ({ setSteps }: Props) => {
 
     return (
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2 font-roboto100">
             <label className='flex flex-col gap-2'>
                 <p>{t("address.telefone")}</p>
                 <Input {...register('tel')} />

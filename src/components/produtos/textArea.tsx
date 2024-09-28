@@ -45,11 +45,11 @@ export const TextArea = ({ setComment }: Props) => {
             name="textArea"
             render={({ field }) => (
               <FormItem className="flex-1">
-                <FormLabel className="text-lg">{t("textArea.comentario")}</FormLabel>
+                <FormLabel className="text-base">{t("textArea.comentario")}</FormLabel>
                 <FormControl>
                   <Textarea
                     placeholder={t("textArea.placeholder")}
-                    className="p-2 h-8  text-sm md:text-base resize-none border border-zinc-700"  
+                    className="p-2 h-8 resize-none border text-sm border-zinc-700"  
                     
                     {...field}
                     value={value}

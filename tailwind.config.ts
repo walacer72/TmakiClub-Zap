@@ -21,6 +21,9 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        roboto: ['Roboto-400', 'sans-serif'],
+        robotoBold: ['Roboto-bold', 'sans-serif'],
+        roboto100: ['Roboto-100', 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",

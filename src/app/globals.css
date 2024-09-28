@@ -1,10 +1,32 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/roboto/Roboto-Bold.ttf") format("opentype");
+  font-family: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-400";
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("opentype");
+  font-family: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-100";
+  src: url("../fonts/roboto/Roboto-Light.ttf") format("opentype");
+  font-family: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
-    --background: 240 4.9% 83.9%;
+    --background: 240 5.9% 90%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -59,6 +81,8 @@
   }
 }
 
+
+
 @layer base {
   * {
     @apply border-border;
@@ -83,7 +107,7 @@
 ::-webkit-scrollbar-thumb {
   background-color: #fe0000;    
   border-radius: 100vw;
-  border: solid 2px var(--background); 
+  border: solid 2px color var(--background); 
   
  
 }

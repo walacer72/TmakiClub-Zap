@@ -63,7 +63,7 @@ export const StepAddress = ({ setSteps }: Props) => {
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
 
-            <div className="grid grid-cols-2 gap-2 mt-0">
+            <div className="grid grid-cols-2 font-roboto100 gap-2 mt-0">
                 <label className='flex flex-col gap-2'>
                     <p>{t("address.cep")}</p>
                     <Input {...register('zipCode')} onBlur={(e) => handleCheckedCep(e)} />

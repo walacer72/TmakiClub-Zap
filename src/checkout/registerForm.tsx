@@ -36,7 +36,7 @@ export const RegisterForm = ({ open, onOpenChange }: Props) => {
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="w-full h-auto max-w-2xl p-8">
+            <DialogContent className="w-full font-roboto100 h-auto max-w-2xl p-8">
                 <div className="w-full h-44 relative flex justify-center overflow-hidden">
                     <img className="w-full h-full object-cover opacity-50" src="./images/tmaki-cabeçalho.webp" alt="" />
                     <h1 className="absolute top-16 text-4xl text-secondary-foreground">Tmaki Club</h1>
