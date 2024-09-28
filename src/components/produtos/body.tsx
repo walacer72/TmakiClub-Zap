@@ -74,13 +74,13 @@ export const Body = async () => {
          <div className="bg-black z-20 py-2 fixed top-28 left-0 right-0 w-screen shadow-lg shadow-zinc-800 border-t-2 border-zinc-950 rounded-bl-3xl rounded-br-3xl md:rounded-none">
             <Carousel
                opts={{
-                  align: "center",
+                  align: "end",
                }}
                className="mx-auto max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-5xl"
             >
                <CarouselContent className="">   
                   {tabs.map(item => (
-                     <CarouselItem key={item.value} className="basis-1/3 md:basis-1/4 lg:basis-1/6">
+                     <CarouselItem key={item.value} className="basis-1/3 lg:basis-1/6">
                         <TabsList className="relative flex">
 
                            <TabsTrigger
@@ -96,8 +96,8 @@ export const Body = async () => {
                      </CarouselItem>
                   ))}
                </CarouselContent>
-               <CarouselPrevious className="hover:bg-transparent" />
-               <CarouselNext className="hover:bg-transparent" />
+               <CarouselPrevious className="text-slate-700 hover:bg-transparent m-0" />
+               <CarouselNext className="text-slate-700 hover:bg-transparent m-0" />
             </Carousel>
          </div>
 
