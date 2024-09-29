@@ -19,7 +19,7 @@ export const ProductItem = ({ item }: Props) => {
     
     return (            
         <div>
-            <div className="flex items-center rounded-md gap-4 p-4 transition-colors ease-in-out duration-500 border border-transparent shadow-md shadow-zinc-600 hover:shadow-lg md:hover:border-zinc-700 md:hover:shadow-zinc-700"> 
+            <div className="flex bg-background items-center rounded-md gap-4 p-4 transition-colors ease-in-out duration-500 border border-transparent shadow-md shadow-zinc-600 hover:shadow-lg md:hover:border-zinc-700 md:hover:shadow-zinc-700"> 
                 <div className="flex-initial md:flex-1 rounded-md overflow-hidden">
                     <img className="w-full h-36 md:h-52 object-cover " src={item.image} alt={item.name} />        
                 </div>

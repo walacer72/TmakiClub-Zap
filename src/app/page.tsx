@@ -8,7 +8,7 @@ import { Suspense, useContext, useState } from "react";
 
 
 const Page = () => {
-  
+   
   return (
     
     <div className="w-full mx-auto overflow-x-hidden font-roboto100">
@@ -18,7 +18,7 @@ const Page = () => {
       </div>
       
 
-      <div className="w-screen max-w-6xl mx-auto mt-48 font-roboto100" >
+      <div className="w-screen max-w-6xl mx-auto mt-44 font-roboto100" >
         <Suspense fallback={<SkeletonTab />}> 
           <Body />
         </Suspense>

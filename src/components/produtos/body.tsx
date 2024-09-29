@@ -109,8 +109,8 @@ export const Body = async () => {
                className=""
             >
                {item.product.length > 0 &&
-                  <div className="w-full relative mx-auto max-w-6xl">
-                     <div className="grid gap-5 grid-cols-1 md:grid-cols-2 mx-4">
+                  <div className="w-full relative mx-auto max-w-6xl bg-backgroundCard p-4 md:p-8"> 
+                     <div className="grid gap-5 grid-cols-1 md:grid-cols-2">
                         {item.product.map(item => (
                            <ProductItem key={item.id} item={item} />
                         ))}
