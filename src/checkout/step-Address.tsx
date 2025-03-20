@@ -1,7 +1,6 @@
 import { CheckoutSteps } from "@/types/checkoutSteps"
 import { Dispatch, FocusEvent, SetStateAction } from "react"
-import { Controller, useForm } from "react-hook-form"
-import { Form, FormControl } from "@/components/ui/form"
+import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useCheckoutStore } from "@/stores/checkout-store"
